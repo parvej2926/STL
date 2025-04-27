@@ -9,7 +9,6 @@ int main()
     v.push_back(3);
     v.push_back(4);
     v.push_back(5);
-    /*
     for(int i=0; i<v.size(); i++)
     {
        cout<< v[i]<< "  ";
@@ -48,7 +47,7 @@ int main()
     {
        cout<< v[i]<< "  ";
     }
-      cout<<endl;*/
+      cout<<endl;
 
       v.insert(v.begin()+3,7,4);
        while(v.size()>0)
@@ -57,7 +56,6 @@ int main()
        v.pop_front();
     }
       cout<<endl;
-      /*
       deque<int>v1;
       v1.push_back(8);
       v1.push_back(9);
@@ -82,7 +80,7 @@ int main()
        cout<< v[i]<< "  ";
     }
       cout<<endl;
-      */
+
 
     return 0;
 }
